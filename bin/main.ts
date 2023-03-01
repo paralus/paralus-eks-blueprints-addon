@@ -1,6 +1,6 @@
 import { App } from 'aws-cdk-lib';
 import * as blueprints from '@aws-quickstart/eks-blueprints';
-import { ParalusAddOn } from '@paralus/paralus-eks-blueprints-addon';
+import { ParalusAddOn } from '../dist';
 
 const app = new App();
 

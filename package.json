@@ -1,11 +1,8 @@
 {
   "name": "@paralus/paralus-eks-blueprints-addon",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "bin": {
-    "eks-blueprints-patterns": "dist/bin/main.js"
-  },
   "scripts": {
     "build": "rm -rf dist && tsc",
     "watch": "tsc -w",
@@ -35,7 +32,6 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@paralus/paralus-eks-blueprints-addon": "^0.1.0",
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
     "acorn": "^7.4.1",
@@ -512,6 +508,9 @@
     "yn": "^3.1.1",
     "zod": "^3.20.6"
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paralus/eks-blueprints-addon.git"
