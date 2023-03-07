@@ -5,8 +5,14 @@ import { ParalusAddOn } from '../dist';
 const app = new App();
 
 blueprints.EksBlueprint.builder()
-     .addOns(new ParalusAddOn({
-         namespace: 'paralus-namespace',
+     .addOns(
+        new blueprints.AwsLoadBalancerControllerAddOn(),
+        new blueprints.VpcCniAddOn(),
+        new blueprints.KubeProxyAddOn(),
+        new blueprints.EbsCsiDriverAddOn(),
+        new blueprints.CertManagerAddOn(),
+        new ParalusAddOn({
+         namespace: 'paralus-system',
          /**
          * Values to pass to the chart as per https://github.com/paralus/helm-charts/blob/main/charts/ztka/values.yaml.
          */
@@ -15,4 +21,5 @@ blueprints.EksBlueprint.builder()
             "fqdn.domain": "paralus.local"
          }
      }))
+     .teams()
      .build(app, 'paralus-test-blueprint');
