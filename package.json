@@ -409,7 +409,7 @@
     "sisteransi": "^1.0.5",
     "slash": "^3.0.0",
     "slice-ansi": "^4.0.0",
-    "snapdragon": "^0.8.2",
+    "snapdragon": "^0.12.1",
     "snapdragon-node": "^2.1.1",
     "snapdragon-util": "^3.0.1",
     "source-map": "^0.6.1",
