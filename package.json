@@ -60,7 +60,7 @@
     "asynckit": "^0.4.0",
     "atob": "^2.1.2",
     "available-typed-arrays": "^1.0.5",
-    "aws-cdk": "2.65.0",
+    "aws-cdk": "2.142.1",
     "aws-cdk-lib": "^2.60.0",
     "aws-sdk": "^2.1260.0",
     "babel-jest": "^26.6.3",
