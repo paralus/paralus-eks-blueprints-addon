@@ -133,7 +133,7 @@
     "domexception": "^2.0.1",
     "dot-object": "^2.1.4",
     "electron-to-chromium": "^1.4.295",
-    "emittery": "^0.7.2",
+    "emittery": "^0.13.1",
     "emoji-regex": "^8.0.0",
     "end-of-stream": "^1.4.4",
     "enquirer": "^2.3.6",
