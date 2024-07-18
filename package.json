@@ -257,7 +257,7 @@
     "jest-environment-node": "^26.6.2",
     "jest-get-type": "^26.3.0",
     "jest-haste-map": "^26.6.2",
-    "jest-jasmine2": "^26.6.3",
+    "jest-jasmine2": "^27.0.0",
     "jest-leak-detector": "^26.6.2",
     "jest-matcher-utils": "^26.6.2",
     "jest-message-util": "^26.6.2",
