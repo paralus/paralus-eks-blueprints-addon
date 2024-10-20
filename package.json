@@ -248,7 +248,7 @@
     "istanbul-lib-source-maps": "^4.0.1",
     "istanbul-reports": "^3.1.5",
     "jest-changed-files": "^26.6.2",
-    "jest-cli": "^26.6.3",
+    "jest-cli": "^28.0.0",
     "jest-config": "^26.6.3",
     "jest-diff": "^26.6.2",
     "jest-docblock": "^26.0.0",
